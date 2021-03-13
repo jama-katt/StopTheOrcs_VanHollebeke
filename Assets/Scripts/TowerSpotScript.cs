@@ -139,7 +139,7 @@ public class TowerSpotScript : MonoBehaviour
                         }
                         break;
                     case 2:
-                        if (towerType == 0 && toolSelector.currency >= TOWER1_PRICE)
+                        if (towerType == 0 && toolSelector.currency >= TOWER2_PRICE)
                         {
                             PlaceTower(tool);
                             toolSelector.currency -= TOWER2_PRICE;
